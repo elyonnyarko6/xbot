@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Web Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1 style="color:goldenrod;font-size: 40px;font-family: Arial, Helvetica, sans-serif;">Welcome to My Web Page</h1>
-        <p>This is a simple website.</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to My Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #f8f9fa; }
+    .container { max-inline-size: 600px; margin: auto; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);}
+    h1 { color: #2c3e50; }
+    p { color: #333; }
+    a.button {
+      display: inline-block; padding: 0.5em 1.5em; background: #007acc; color: #fff; border-radius: 4px;
+      text-decoration: none; margin-block-start: 1em; transition: background 0.2s;
+    }
+    a.button:hover { background: #005fa3; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Website!</h1>
+    <p>This is your new homepage deployed with GitHub Pages.</p>
+    <p>
+      You can edit <code>index.html</code> to update this page with your own content.<br>
+      Need help? Check out the <a href="https://docs.github.com/en/pages" target="_blank">GitHub Pages documentation</a>.
+    </p>
+    <a class="button" href="https://github.com/elyonnyarko6/xbot" target="_blank">View Repository</a>
+  </div>
+</body>
 </html>
